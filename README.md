@@ -19,7 +19,4 @@
 - `BOT_TOKEN` - Get it from [@BotFather](https://t.me/BotFather)
 
 ### Credits ❤
-
-- [Lonami](https://github.com/LonamiWebs/Telethon) for telethon
-
-<br>🏷 Join [support group](https://t.me/SDBOTz) for any help
+[Theekshana](t.me/ImTheekshana)
