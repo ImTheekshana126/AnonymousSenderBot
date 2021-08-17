@@ -51,24 +51,24 @@ else:
 @JEBotZ.on(events.NewMessage(pattern="^/start"))
 async def start(event):
     if event.is_private:
-       await event.reply("Heya, I'm **Advanced Anonymous Sender** Bot 👨‍💻\n\nClick on help to find out how to use me\n\n**@SDBOTsZ**", 
+       await event.reply("Heya, I'm **Advanced Anonymous Sender** Bot \n\nClick on help to find out how to use me\n\n**@Theekshana_Support**", 
                          buttons=[[Button.inline("Help", data="help")], 
-                                  [Button.url("Channel", url="https://t.me/SDBOTs_inifinity"), Button.url("Source", url="https://github.com/sadew451/AnonymousSenderBot")]])
+                                  [Button.url("Channel", url="https://t.me/Theekshana_Official"), Button.url("Source", url="https://github.com/ImTheekshana126/AnonymousSenderBot")]])
        return
     if event.is_group:
-       await event.reply("Heya, I'm **Advanced Anonymous Sender** Bot 👨‍💻") 
+       await event.reply("Heya, I'm **Advanced Anonymous Sender** Bot ") 
      
  
 @JEBotZ.on(events.callbackquery.CallbackQuery(data="help"))
 async def _(event):
-     await event.edit("**Help 📖**\n\nUsing me you can anonymize the sender and add or change caption of a media file\n\n**Available Commands 🧐**\n\n- /send (reply to media): Anonymize the sender\n- /send (caption) (reply to media): Add or change the caption and anonymize the sender\n\n*⃣ This bot works on both groups and private, but only admins can use the bot in groups\n\n**@SDBOTsZ**", 
+     await event.edit("**Help **\n\nUsing me you can anonymize the sender and add or change caption of a media file\n\n**Available Commands **\n\n- /send (reply to media): Anonymize the sender\n- /send (caption) (reply to media): Add or change the caption and anonymize the sender\n\n*⃣ This bot works on both groups and private, but only admins can use the bot in groups\n\n**@Theekshana_Support**", 
                         buttons=[[Button.inline("Back", data="start")]])
     
 @JEBotZ.on(events.callbackquery.CallbackQuery(data="start"))
 async def _(event):
-     await event.edit("Heya, I'm **Advanced Anonymous Sender** Bot 👨‍💻\n\nClick on help to find out how to use me\n\n**@SDBOTsZ**", 
+     await event.edit("Heya, I'm **Advanced Anonymous Sender** Bot \n\nClick on help to find out how to use me\n\n**@SDBOTsZ**", 
                        buttons=[[Button.inline("Help", data="help")], 
-                                [Button.url("Channel", url="https://t.me/SDBOTs_inifinity"), Button.url("Source", url="https://github.com/sadew451/AnonymousSenderBot")]])
+                                [Button.url("Channel", url="https://t.me/Theekshana_Official"), Button.url("Source", url="https://github.com/ImTheekshana126/AnonymousSenderBot")]])
          
 @JEBotZ.on(events.NewMessage(pattern="^/send ?(.*)"))
 async def caption(event):
@@ -81,7 +81,7 @@ async def caption(event):
         cap = event.pattern_match.group(1)
         await JEBotZ.send_file(event.chat.id, lel, caption=cap)
       except Exception:
-         await event.reply("Reply to a media file 🥴")
+         await event.reply("Reply to a media file")
          return
    if not a.is_admin:
       await event.reply("Only admins can execute this command!")
@@ -95,10 +95,10 @@ async def caption(event):
      cap = event.pattern_match.group(1)
      await JEBotZ.send_file(event.chat.id, lel, caption=cap)
    except Exception:
-      await event.reply("Reply to a media file 🥴")
+      await event.reply("Reply to a media file ")
       return 
       
        
 print("Bot has started!")
-print("Do visit @SDBOTsZ.")
+print("Do visit @Theekshana_Support.")
 JEBotZ.run_until_disconnected()
