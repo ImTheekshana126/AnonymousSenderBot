@@ -12,7 +12,7 @@
 
 ### Easy Deploy 🏃‍♂
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ImTheekshana126/AnonymousSenderBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku"alt="Deploy To Heroku"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ImTheekshana126/AnonymousSenderBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250" height="38.45"alt="Deploy To Heroku"/></a></p>
 
 
 ### Vars 📙
